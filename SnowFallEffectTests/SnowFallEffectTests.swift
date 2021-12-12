@@ -10,24 +10,39 @@ import XCTest
 
 class SnowFallEffectTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var snowFallEffect: SnowFallEffectLayer!
+    
+    override func setUp() {
+        snowFallEffect = SnowFallEffectLayer()
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testSnowFallEffectItem() throws {
+        let fallingItem = SnowFallEffectItem(particleImage: UIImage(), speed: 20, scale: 1, color: .white)
+        
+        XCTAssertEqual(fallingItem.color, .white)
+        XCTAssertEqual(fallingItem.image, UIImage())
+        XCTAssertEqual(fallingItem.speed, 20)
+        XCTAssertEqual(fallingItem.scale, 1)
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSnowFallEffectItem_GivenDefaultValued() throws {
+        let fallingItem = SnowFallEffectItem()
+        
+        XCTAssertEqual(fallingItem.color, .white)
+        XCTAssertEqual(fallingItem.image, UIImage())
+        XCTAssertEqual(fallingItem.speed, 1)
+        XCTAssertEqual(fallingItem.scale, 1)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testConfigureSnowFallLayer() throws {
+        let emitterCells = snowFallEffect.configure(with: [SnowFallEffectItem(particleImage: UIImage(), speed: 20, scale: 1, color: .white)])!
+        XCTAssertEqual(emitterCells.count, 1)
     }
-
+    
+    func testCongifureSnowLayer_GivenDefaultValues() throws {
+        let _ = snowFallEffect.configure(with: [SnowFallEffectItem()])!
+        XCTAssertEqual(snowFallEffect.snowFallDuration, SnowFallEffectDuration.infinitive)
+        XCTAssertEqual(snowFallEffect.snowFallDirection, SnowFallEffectDirection.top)
+        XCTAssertEqual(snowFallEffect.snowFallShape, SnowFallShape.line)
+    }
 }
