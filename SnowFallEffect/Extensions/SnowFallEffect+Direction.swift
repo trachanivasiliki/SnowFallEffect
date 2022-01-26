@@ -7,6 +7,11 @@
 
 import Foundation
 
+/**
+ Set direction of snow fall animation
+ - top: snow fall from top
+ - bottom: snow fall from bottom
+ */
 public enum SnowFallEffectDirection {
     case top
     case bottom

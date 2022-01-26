@@ -7,6 +7,11 @@
 
 import UIKit
 
+/**
+ Set the degrees of slope in x-axis
+ - angleDegrees
+ - angle: angle of snow fall animation -right, left, none
+ */
 public class SnowFallEffetAngleDegrees {
     var angleDegrees: CGFloat = 0
     var angle: SnowFallEffectAngle = .none

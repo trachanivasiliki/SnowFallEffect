@@ -7,7 +7,12 @@
 
 import Foundation
 
+/**
+ Set duration of snow fall animation
+ - infinite: infinite animation
+ - custom: set duration of snow fall animation
+ */
 public enum SnowFallEffectDuration: Equatable {
-    case infinitive
+    case infinite
     case custom(duration: CFTimeInterval? = 0.0)
 }
