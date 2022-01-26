@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		783763E6276658F60023A7F9 /* SnowFallEffectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783763E5276658F60023A7F9 /* SnowFallEffectItem.swift */; };
+		78005DA3276E7BEE00DE597B /* SnowFallEffectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78005DA2276E7BEE00DE597B /* SnowFallEffectItem.swift */; };
+		780B6CC227A072B800B9629E /* SnowFallEffect+Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B6CC127A072B800B9629E /* SnowFallEffect+Angle.swift */; };
+		780B6CC427A072F600B9629E /* SnowFallEffetAngleDegrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B6CC327A072F600B9629E /* SnowFallEffetAngleDegrees.swift */; };
 		783763E8276659400023A7F9 /* SnowFallEffectLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783763E7276659400023A7F9 /* SnowFallEffectLayer.swift */; };
 		783763EA276659B70023A7F9 /* SnowFallEffect+Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783763E9276659B70023A7F9 /* SnowFallEffect+Duration.swift */; };
 		783763EC27666E8F0023A7F9 /* SnowFallEffect+Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783763EB27666E8F0023A7F9 /* SnowFallEffect+Direction.swift */; };
-		783763EE276670E90023A7F9 /* SnowFallEffect+Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783763ED276670E90023A7F9 /* SnowFallEffect+Shape.swift */; };
 		7872B6D02761509700497AC1 /* SnowFallEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7872B6C62761509600497AC1 /* SnowFallEffect.framework */; };
 		7872B6D52761509700497AC1 /* SnowFallEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872B6D42761509700497AC1 /* SnowFallEffectTests.swift */; };
 		7872B6D72761509700497AC1 /* SnowFallEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 7872B6C92761509600497AC1 /* SnowFallEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7872B6E72761522800497AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872B6E62761522800497AC1 /* AppDelegate.swift */; };
-		7872B6E92761522800497AC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872B6E82761522800497AC1 /* SceneDelegate.swift */; };
 		7872B6EB2761522800497AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872B6EA2761522800497AC1 /* ViewController.swift */; };
 		7872B6EE2761522800497AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7872B6EC2761522800497AC1 /* Main.storyboard */; };
 		7872B6F02761522B00497AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7872B6EF2761522B00497AC1 /* Assets.xcassets */; };
@@ -34,11 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		783763E5276658F60023A7F9 /* SnowFallEffectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowFallEffectItem.swift; sourceTree = SOURCE_ROOT; };
+		78005DA2276E7BEE00DE597B /* SnowFallEffectItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowFallEffectItem.swift; sourceTree = "<group>"; };
+		780B6CC127A072B800B9629E /* SnowFallEffect+Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnowFallEffect+Angle.swift"; sourceTree = "<group>"; };
+		780B6CC327A072F600B9629E /* SnowFallEffetAngleDegrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowFallEffetAngleDegrees.swift; sourceTree = "<group>"; };
 		783763E7276659400023A7F9 /* SnowFallEffectLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowFallEffectLayer.swift; sourceTree = "<group>"; };
 		783763E9276659B70023A7F9 /* SnowFallEffect+Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnowFallEffect+Duration.swift"; sourceTree = "<group>"; };
 		783763EB27666E8F0023A7F9 /* SnowFallEffect+Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnowFallEffect+Direction.swift"; sourceTree = "<group>"; };
-		783763ED276670E90023A7F9 /* SnowFallEffect+Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnowFallEffect+Shape.swift"; sourceTree = "<group>"; };
 		7872B6C62761509600497AC1 /* SnowFallEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowFallEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7872B6C92761509600497AC1 /* SnowFallEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowFallEffect.h; sourceTree = "<group>"; };
 		7872B6CA2761509600497AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		7872B6D62761509700497AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7872B6E42761522800497AC1 /* SnowFallEffectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowFallEffectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7872B6E62761522800497AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7872B6E82761522800497AC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7872B6EA2761522800497AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7872B6ED2761522800497AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7872B6EF2761522B00497AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78502C3E27A1AAA900F8C07D /* SnowFallEffectLayer */ = {
+			isa = PBXGroup;
+			children = (
+				783763E7276659400023A7F9 /* SnowFallEffectLayer.swift */,
+			);
+			path = SnowFallEffectLayer;
+			sourceTree = "<group>";
+		};
 		7872B6BC2761509600497AC1 = {
 			isa = PBXGroup;
 			children = (
@@ -104,13 +112,10 @@
 		7872B6C82761509600497AC1 /* SnowFallEffect */ = {
 			isa = PBXGroup;
 			children = (
-				7872B6C92761509600497AC1 /* SnowFallEffect.h */,
 				7872B6CA2761509600497AC1 /* Info.plist */,
-				783763E5276658F60023A7F9 /* SnowFallEffectItem.swift */,
-				783763E9276659B70023A7F9 /* SnowFallEffect+Duration.swift */,
-				783763EB27666E8F0023A7F9 /* SnowFallEffect+Direction.swift */,
-				783763E7276659400023A7F9 /* SnowFallEffectLayer.swift */,
-				783763ED276670E90023A7F9 /* SnowFallEffect+Shape.swift */,
+				78B40BE027A078CA00EDE67B /* Model */,
+				78B40BE227A0796300EDE67B /* Extensions */,
+				78B40BE127A0794E00EDE67B /* Supporting Files */,
 			);
 			path = SnowFallEffect;
 			sourceTree = "<group>";
@@ -128,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				7872B6E62761522800497AC1 /* AppDelegate.swift */,
-				7872B6E82761522800497AC1 /* SceneDelegate.swift */,
 				7872B6EA2761522800497AC1 /* ViewController.swift */,
 				7872B6EC2761522800497AC1 /* Main.storyboard */,
 				7872B6EF2761522B00497AC1 /* Assets.xcassets */,
@@ -136,6 +140,34 @@
 				7872B6F42761522B00497AC1 /* Info.plist */,
 			);
 			path = SnowFallEffectExample;
+			sourceTree = "<group>";
+		};
+		78B40BE027A078CA00EDE67B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78502C3E27A1AAA900F8C07D /* SnowFallEffectLayer */,
+				780B6CC327A072F600B9629E /* SnowFallEffetAngleDegrees.swift */,
+				78005DA2276E7BEE00DE597B /* SnowFallEffectItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78B40BE127A0794E00EDE67B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7872B6C92761509600497AC1 /* SnowFallEffect.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78B40BE227A0796300EDE67B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				783763E9276659B70023A7F9 /* SnowFallEffect+Duration.swift */,
+				783763EB27666E8F0023A7F9 /* SnowFallEffect+Direction.swift */,
+				780B6CC127A072B800B9629E /* SnowFallEffect+Angle.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,10 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780B6CC227A072B800B9629E /* SnowFallEffect+Angle.swift in Sources */,
 				783763EC27666E8F0023A7F9 /* SnowFallEffect+Direction.swift in Sources */,
 				783763E8276659400023A7F9 /* SnowFallEffectLayer.swift in Sources */,
-				783763EE276670E90023A7F9 /* SnowFallEffect+Shape.swift in Sources */,
-				783763E6276658F60023A7F9 /* SnowFallEffectItem.swift in Sources */,
+				78005DA3276E7BEE00DE597B /* SnowFallEffectItem.swift in Sources */,
+				780B6CC427A072F600B9629E /* SnowFallEffetAngleDegrees.swift in Sources */,
 				783763EA276659B70023A7F9 /* SnowFallEffect+Duration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +333,6 @@
 			files = (
 				7872B6EB2761522800497AC1 /* ViewController.swift in Sources */,
 				7872B6E72761522800497AC1 /* AppDelegate.swift in Sources */,
-				7872B6E92761522800497AC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

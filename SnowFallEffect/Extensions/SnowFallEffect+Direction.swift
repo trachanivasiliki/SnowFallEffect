@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum SnowFallEffectDirection {
+public enum SnowFallEffectDirection {
     case top
     case bottom
 }

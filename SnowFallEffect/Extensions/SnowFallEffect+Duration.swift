@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum SnowFallEffectDuration: Equatable {
+public enum SnowFallEffectDuration: Equatable {
     case infinitive
     case custom(duration: CFTimeInterval? = 0.0)
 }
