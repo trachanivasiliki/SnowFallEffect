@@ -39,7 +39,7 @@ public final class SnowFallEffectLayer: CAEmitterLayer {
             emiterCell.yAcceleration = (snowFallDirection == .top) ? item.speed : (-item.speed)
             emiterCell.scale = item.scale
             emiterCell.scaleRange = item.scale / 3
-            emiterCell.contents = item.image?.cgImage
+            emiterCell.contents = item.image.cgImage
             if let snowFallAngle = snowFallAngle, snowFallAngle.angle != .none {
                 emiterCell.xAcceleration = (snowFallAngle.angle == .right) ? snowFallAngle.angleDegrees : (-snowFallAngle.angleDegrees)
             }
@@ -50,7 +50,7 @@ public final class SnowFallEffectLayer: CAEmitterLayer {
     ///start snow animation
     ///add snow layer into view hierarchy
     public func addSnowLayer(into view: UIView) {
-        let pointy = (snowFallDirection == .top) ? (-5) : (view.bounds.height + 5)
+        let pointy = (snowFallDirection == .top) ? (-10) : (view.bounds.height + 5)
         self.emitterPosition = CGPoint(x: view.bounds.width / 2.0, y: pointy)
         self.emitterSize = CGSize(width: view.bounds.width, height: 0)
         self.emitterShape = .line
