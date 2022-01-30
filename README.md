@@ -12,7 +12,7 @@ Based on CAEmitterLayer that emits, animates and renders a particle which is def
   import SnowFallEffect
   ```
 
-* Add Snow Fall Effect
+* **Add** Snow Fall Effect
   1. Create `SnowFallEffectItem` with any image, speed, scale and velocity.
   
       ```
@@ -26,13 +26,14 @@ Based on CAEmitterLayer that emits, animates and renders a particle which is def
       snowLayer?.addSnowLayer(into: self.view)
      ```
 
-  The `SnowFallEffectLayer` parametres are:
-  * direction (top/bottom)
-  * duration (infinite or custom - CFTimeInterval)
-  * angle (right/left/none) 
+    The `SnowFallEffectLayer` parametres are:
+     * direction (top/bottom)
+     * duration (infinite or custom - CFTimeInterval)
+     * angle (right/left/none) 
 
 
-* Remove Snow Fall Effect
+
+* **Remove** Snow Fall Effect
   Use `removeFallingLayer` to remove snow fall effect from view
   
      ```
