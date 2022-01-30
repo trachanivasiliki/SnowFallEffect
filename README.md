@@ -6,6 +6,12 @@ Based on CAEmitterLayer that emits, animates and renders a particle which is def
 (https://developer.apple.com/documentation/quartzcore/caemitterlayer)
 
 ## Usage
+* Import `SnowFallEffect` in your viewController
+
+  ```
+  import SnowFallEffect
+  ```
+
 * Add Snow Fall Effect
   1. Create `SnowFallEffectItem` with any image, speed, scale and velocity.
   
