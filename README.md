@@ -6,6 +6,18 @@
 Based on CAEmitterLayer that emits, animates and renders a particle which is defined by instances of CAEmitterCell
 (https://developer.apple.com/documentation/quartzcore/caemitterlayer)
 
+## Usage
+
+* Remove Snow Effect
+  Use `removeFallingLayer` to remove snow fall effect from view
+  
+  ```
+  snowLayer?.removeFallingLayer(from: self.view)
+  ```
+  
+## Example
+The demo project 'SnowFallEffectExample' contains a collection of examples of how to use it.
+
 ## Requirements
 
 * iOS 11.0 and later.
